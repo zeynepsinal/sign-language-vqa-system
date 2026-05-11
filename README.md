@@ -79,17 +79,11 @@ clean_sign/
 
 Aşağıdaki komutları sırasıyla çalıştırarak projeyi kurabilir ve uygulamayı başlatabilirsiniz.
 
-```bash
-git clone https://github.com/zeynepsinal/sign-language-vqa.git
-cd sign-language-vqa
-
+git clone https://github.com/zeynepsinal/sign-language-vqa-system.git
+cd sign-language-vqa-system
 python -m venv venv
-
-# Windows
 venv\Scripts\activate
-
 pip install -r requirements.txt
-
 streamlit run app.py
 
 Uygulama çalıştırıldıktan sonra tarayıcıda otomatik olarak aşağıdaki adres açılacaktır:
